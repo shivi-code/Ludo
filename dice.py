@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
+import tkinter
 from PIL import Image, ImageTk
 import random
 
@@ -49,3 +44,6 @@ button = tkinter.Button(root, text='Roll the Dice', fg='blue', command=rolling_d
 # pack a widget in the parent widget
 button.pack( expand=True)
 
+# call the mainloop of Tk
+# keeps window open
+root.mainloop()
